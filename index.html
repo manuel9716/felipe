@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <script src="Main.js"></script>
+    <script src="Persona.js"></script>
+    <title>Formulario Memoria Dinamica</title>
+</head>
+<body>
+    <form>
+        <h1>Registro de datos</h1>
+        <label for="InputNombre">Ingrese su nombre<span>*</span></label>
+        <input type="text" name="nombre" id="InputNombre" required>
+        <br>
+        <br>
+        <label for="InputId">Ingrese su identificación<span>*</span></label>
+        <input type="number" name="id" id="InputId" required>
+        <br>
+        <br>
+        <label for="InputEmail">Ingrese su correo<span>*</span></label>
+        <input type="email" name="email" id="InputEmail" required>
+        <br>
+        <br>
+        <button  type="button" onclick="registro()">Agregar</button>
+        <button  type="button" onclick="borrar()">Borrar Caché</button>
+    </form>
+</body>
+</html>

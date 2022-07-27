@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(197, 252, 210); 
+    background-image:url(fruta.jpg);; 
+    
+}
+
+form {
+   margin-top: 200px;
+   margin-left: 750px;
+   width: 250px;  
+   background-color: white;
+   padding: 5px 100px 100px 100px; 
+   border-radius: 10px; 
+}
+
+h1{
+    background-color: rgb(139, 53, 53); 
+    text-align: center;
+    margin-left: 30px;
+    color: white; 
+    width: 200px; 
+    border: 1px solid #000; 
+    border-radius: 5px; 
+    
+}
+
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px; 
+    font-size: 18px;
+    text-align: center;
+}
+input{
+    padding: 5px; 
+    font-size: 20px;
+    text-align: center;
+}
+button{
+    margin-left: 13px;
+    background-color: rgb(255, 208, 208);
+    padding: 5px; 
+    font-size: 20px;
+    text-align: center;
+}
